@@ -1,0 +1,91 @@
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.content, .grid-content, .flex-content {
+    margin: 20px;
+    text-align: center;
+}
+
+/* Page 1 Styles */
+.content {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.content h1 {
+    color: #333;
+    font-size: 24px;
+}
+
+.content p {
+    font-size: 16px;
+}
+
+.content img {
+    max-width: 100%;
+}
+/* Page 2 Styles */
+.grid-content {
+    background-color: #e0e0e0;
+    padding: 20px;
+}
+
+.grid-content h1 {
+    color: #333;
+    font-size: 24px;
+}
+
+.grid-content p {
+    font-size: 16px;
+}
+
+.grid-content img {
+    max-width: 100%;
+}
+/* Page 3 Styles */
+.flex-content {
+    background-color: #d0d0d0;
+    padding: 20px;
+}
+
+.flex-content h1 {
+    color: #333;
+    font-size: 24px;
+}
+
+.flex-content p {
+    font-size: 16px;
+}
+
+.flex-content input {
+    padding: 10px;
+    font-size: 16px;
+}
+
+.flex-content button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #333;
+    color: white;
+    border: none;
+}
+
+.flex-content img {
+    max-width: 100%;
+}
+
+#userOutput {
+    margin: 10px;
+    font-weight: bold;
+}
